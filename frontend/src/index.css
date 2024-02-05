@@ -14,10 +14,14 @@
 }
 .navlogo{
   height: 40px;
-  width: 80px;
-  padding-right: 20px;
+  width: 100px;
+  /* padding-right: 20px; */
   background-color: black;
+  background-image: url("./images/codeshack.jpg");
+  background-size: cover;
 }
+
+
 .navspan{
   margin-left: 5px;
 }
@@ -33,11 +37,13 @@
   display: flex;
 }
 .headlogo{
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   margin-right: 10px;
   background-color: black;
   border-radius: 50px;
+  background-image: url("./images/ncodeshacklogo.jpg");
+  background-size: cover;
 }
 .body{
   height:680px;
@@ -55,6 +61,8 @@
   flex-wrap: wrap;
   border-radius: 30px;
   background-color: black;
+  background-image: url("./images/inbody.jpg");
+  background-size: cover;
 }
 .pro{
   height: 200px;
@@ -62,7 +70,9 @@
   display: flex;
   overflow-x: scroll;
   align-items: center;
+  background-color: black;
   border: 2px solid black;
+  border-radius: 20px;
   
 }
 .subpro{
@@ -70,9 +80,10 @@
   min-width: 150px;
   margin: 20px;
   border-radius: 20px;
-  background-color: black;
+  background: linear-gradient(140.24deg, #5E1B04 0%, rgba(245, 204, 160, 0.63) 93.36%);
+  box-shadow: 4px 4px 0px 1px rgba(255, 210, 184, 0.36);
   display: inline-block;
-  border: 2px solid black;
+  
 }
 .photosection{
   height:200px;
@@ -92,6 +103,8 @@
   display: inline-block;
   background-color: black;
   border: 2px solid black;
+  background-image: url("./images/event3.jpg");
+  background-size: cover;
 }
 .wrapper{
   padding: 10px;
@@ -164,6 +177,8 @@
   height:40px;
   width: 100px;
   background-color: black;
+  background-image: url("./images/codeshack.jpg");
+  background-size: cover;
 }
 .mail{
   padding: 20px 0px 0px 20px;

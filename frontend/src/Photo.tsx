@@ -5,7 +5,7 @@ function Photo() {
             <h2>Photos</h2>
             <span>see all</span>
         </div>
-        <div className='sec'>1</div>
+        <div className='sec'></div>
     </div>
   )
 }

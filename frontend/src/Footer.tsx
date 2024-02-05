@@ -27,8 +27,8 @@ function Footer({eventname,venuetime}:footprobs) {
                 <ul>
                     <a href="url">Home</a><br></br>
                     <a href="url">About us</a><br></br>
-                    <a href="url">Home</a><br></br>
-                    <a href="url">Home</a>
+                    <a href="url">Upcomming Events</a><br></br>
+                    <a href="url">Faq</a>
 
                 </ul>
             </div>
