@@ -5,26 +5,103 @@
 
 .navbar{
   height: 60px;
+  width: 100%;
   padding: 0px 20px 0px 20px;
   background: rgba(255, 250, 246, 1);
   display:flex;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   
 }
 .navlogo{
-  height: 40px;
-  width: 100px;
+  height: 50px;
+  width: 120px;
   /* padding-right: 20px; */
   background-color: black;
   background-image: url("./images/codeshack.jpg");
   background-size: cover;
 }
 
-
-.navspan{
-  margin-left: 5px;
+.navitem{
+  padding: 0px 20px;
 }
+.navspan{
+  margin: 20px;
+  font-size: 1.5rem;
+  margin-left: 5px;
+  color: black;
+  display: block;
+  
+}
+
+/* Sidebar.css */
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: rgba(255, 250, 246, 1);
+  overflow-x: hidden;
+  /* padding: 20px 0px 0px 20px; */
+  transition: 0.5s;
+}
+.sidenav{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar.open {
+  width: 250px;
+}
+
+.sidebar h2 {
+  color: rgb(18, 3, 3);
+  text-align: center;
+}
+
+/* .sidebar button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+} */
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  color: rgb(22, 7, 7);
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color:#333;
+}
+.menubutton{
+  height: 40px;
+  width: 40px;
+  margin-right: 40px;
+  background-image: url("./images/menu.jpg");
+  background-size: cover;
+  border: none;
+}
+
+.navmenubutton{
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  background-image: url("./images/menu.jpg");
+  background-size: cover;
+  border: none;
+}
+
 .headbar{
   height: 100px;
   padding:80px 0px 0px 20px;

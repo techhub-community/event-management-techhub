@@ -16,13 +16,18 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
   return (
     <>
     <div className={`sidebar ${isOpen ? 'open' : ''}`}>
-      <h2>Sidebar</h2>
-      <button onClick={handleClick}>Close</button>
-      {/* Add your sidebar content here */}
+      <div className='sidenav'>
+      <h2>Menu</h2>
+      <button className="navmenubutton"onClick={handleClick}></button>
+      </div>
       <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
+      <div className="navitem">
+            <span className="navspan">Home</span>
+            <span className="navspan">About</span>
+            <span className="navspan">Contact</span>
+            <span className="navspan">Events</span>
+            <span className="navspan">FAQ</span>
+        </div>
       </ul>
     </div>
     </>
