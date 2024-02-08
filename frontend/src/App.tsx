@@ -1,35 +1,52 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom'
+import { Suspense, lazy } from 'react'
+
+const HomePage = lazy(() => import('./pages/HomePage'))
+const Register = lazy(() => import('./register/AuthenticationPage'))
+const Login = lazy(() => import('./login/LoginPage'))
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div>
+      
+      <BrowserRouter>
+        <NavBar  />
+        <Routes>
+            <Route path="/login" element={<Suspense fallback={"loading ..."}><Login /></Suspense>} />
+            <Route path="/register" element={<Suspense fallback={"loading ..."}><Register /></Suspense>} />
+            <Route path="/" element={<Suspense fallback={"loading ..."}><HomePage /></Suspense>} />
+
+            {/* <Route path='/login' element={<Login />} />
+            <Route path='/' element={<Register />} /> */}
+        </Routes>
+      </BrowserRouter>
+
+    </div>
   )
 }
 
-export default App
+function NavBar () {
+  const navigate = useNavigate(); // --> Client Side Routing
+
+  return <div>
+      <div>
+        <button onClick={() => {
+          navigate("/register"); 
+        }}>Register</button>
+
+        <button onClick={() => {
+          navigate('/login');
+        }}>Login</button>
+        
+        {/* <button onClick={() => {
+          navigate('/');
+        }}>Home</button> */}
+
+      </div>
+  </div>
+}
+
+
+export default App;

@@ -1,0 +1,242 @@
+.frame-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.codeshack-image {
+  width: 533px;
+  height: 152px;
+  flex-shrink: 0;
+}
+
+.navigation-frame {
+  /* margin-left: 50px; */
+  /* padding: 1px; */
+  font-family: Inter;
+  position: absolute;
+  bottom: 0;
+  /* right: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email-container, .menu-items {
+  margin-right: auto;
+}
+
+.content-frame,
+.navigation-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2.69rem;
+  max-width: 100%;
+}
+
+.greeting {
+  color: #90430B;
+  text-align: center;
+  font-family: Inter;
+  font-size: 47px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 407px;
+  margin: 0px;
+}
+
+.description {
+  color: #000;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 558px;
+  margin: 0px;
+}
+
+.events,
+.attendance,
+.swags {
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.events {
+  color: #9400D9;
+  box-shadow: inset 0 0 0 0 #9400D9;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.events:hover {
+  box-shadow: inset 95px 0 0 0 #9400D9;
+  color: white;
+}
+
+.attendance {
+  color: #0B5090;
+  box-shadow: inset 0 0 0 0 #0B5090;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.attendance:hover {
+  box-shadow: inset 160px 0 0 0 #0B5090;
+  color: white;
+}
+
+.swags {
+  color: #746100;
+  box-shadow: inset 0 0 0 0 #746100;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.swags:hover {
+  box-shadow: inset 100px 0 0 0 #746100;
+  color: white;
+}
+
+.email-container {
+  padding-left: 20px;
+  color: #010000; 
+  text-align: center; 
+  font-size: 1.4rem; 
+  line-height: normal;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.codeshack-email {
+  color: rgb(33, 10, 184); 
+  font-size: 1.4rem; 
+  font-weight: 600;
+
+  box-shadow: inset 0 0 0 0 #9400D9;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .4s ease-in-out;
+  text-decoration: none;
+}
+
+.codeshack-email:hover {
+  color: white;
+  box-shadow: inset 450px 0 0 0 #9400D9;
+}
+
+.menu-items {
+  /* flex: 1; */
+  /* position: relative; */
+
+  padding-left: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item {
+  flex: 1;
+  position: relative;
+  white-space: nowrap;
+  margin: 0 15px;
+
+  
+}
+.FrameA-link {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  text-decoration: none;
+}
+.FrameA-link:hover {
+  color: #000;
+}
+
+.FrameA-link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(9, 199, 228);
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+.FrameA-link:hover::before {
+  transform: scaleX(1);
+}
+a{
+  text-decoration: none;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1125px) {
+  .frame-container {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .greeting {
+    font-size: 2.38rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .content-frame,
+  .navigation-frame {
+    gap: 1.31rem;
+  }
+  .frame-container {
+    gap: 9.06rem;
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .greeting {
+    font-size: 1.75rem;
+  }
+  .description {
+    font-size: 1.38rem;
+  }
+  .codeshack-email {
+    /* font-size: 1.19rem; */
+    font-size: 1rem;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1.19rem;
+  }
+  .frame-container {
+    gap: 4.5rem;
+  }
+}

@@ -1,0 +1,403 @@
+.subheading {
+    height: 2.19rem;
+    width: 20.5rem;
+    position: relative;
+    border-radius: 20px;
+    background-color: rgba(255, 176, 107, 0.35);
+    display: none;
+    max-width: 100%;
+  }
+  .register-yourself {
+    position: relative;
+    font-size: 1.13rem;
+    font-weight: 500;
+    font-family: Inter;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+  }
+  .frame-i {
+    cursor: pointer;
+    border: 0;
+    padding: 0.38rem 0.38rem 0.44rem;
+    background-color: rgba(255, 176, 107, 0.35);
+    width: 20.5rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .frame-i:hover {
+    background-color: rgba(204, 125, 56, 0.35);
+  }
+  .github-btn {
+    height: 3.13rem;
+    width: 15.5rem;
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff7f1;
+    display: none;
+  }
+  .github-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    min-height: 1.5rem;
+    z-index: 2;
+  }
+  .continue-with-github {
+    position: relative;
+    font-size: 1.13rem;
+    font-weight: 500;
+    font-family: Inter;
+    color: #000;
+    text-align: center;
+    z-index: 2;
+  }
+  .github-google-inputs,
+  .google-btn {
+    border-radius: 10px;
+    background-color: #fff7f1;
+  }
+  .github-google-inputs {
+    cursor: pointer;
+    border: 0;
+    padding: 0.81rem 0.94rem;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    gap: 0.31rem;
+    min-width: 10.06rem;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .github-google-inputs1:hover,
+  .github-google-inputs:hover {
+    background-color: #e6ded9;
+  }
+  .google-btn {
+    height: 3.13rem;
+    width: 15.5rem;
+    position: relative;
+    display: none;
+  }
+  .google-icon {
+    height: 1.5rem;
+    width: 1.56rem;
+    position: relative;
+    object-fit: cover;
+    min-height: 1.5rem;
+    z-index: 2;
+  }
+  .continue-with-google {
+    position: relative;
+    font-size: 1.13rem;
+    font-weight: 500;
+    font-family: Inter;
+    color: #000;
+    text-align: center;
+    z-index: 2;
+  }
+  .github-google-inputs1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0.81rem 1.06rem 0.81rem 0.75rem;
+    background-color: #fff7f1;
+    flex: 1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    min-width: 10.06rem;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .google-input {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.88rem;
+    min-height: 3.38rem;
+  }
+  .seperator {
+    height: 0.06rem;
+    flex: 1;
+    position: relative;
+    border-top: 1px solid #482707;
+    box-sizing: border-box;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .register-yourself-to-continue {
+    width: 31rem;
+    height: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 1.25rem 0 2.13rem;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .inputField {
+    width: 25rem;
+    borwidth: 248px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .email-tb {
+    font-family: Inter;
+    font-size: 20px;
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 10px;
+    background-color: #FFF6F1;;
+    z-index: 1;
+  }
+  .email-input {
+    align-self: stretch;
+    height: 4.88rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.31rem;
+  }
+  .usn {
+    align-self: stretch;
+    height: 4.88rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.31rem;
+    max-width: 100%;
+  }
+  .password {
+    width: 5.13rem;
+    border: 0;
+    outline: 0;
+    font-weight: 600;
+    font-family: Inter;
+    font-size: 1.13rem;
+    background-color: transparent;
+    height: 1.44rem;
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .password-parent {
+    align-self: stretch;
+    height: 4.88rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.31rem;
+  }
+  .i-agree-to {
+    font-family: Inter;
+  }
+  .terms-conditions {
+    font-weight: 800;
+    font-family: Inter;
+  }
+  .InputContent-link {
+    color: rgb(9, 199, 228);
+    box-shadow: inset 0 0 0 0 #4CAF50;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .4s ease-in-out;
+    text-decoration: none;
+  }
+  .InputContent-link:hover {
+    box-shadow: inset 180px 0 0 0 #4CAF50;
+    color: white;
+  }
+  .i-agree-to-container {
+    position: relative;
+    font-size: 1.13rem;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+  }
+  .checkbox-agree,
+  .frame-parent,
+  .input-email-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.56rem;
+    max-width: 100%;
+  }
+  .checkbox-agree,
+  .frame-parent {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.06rem;
+  }
+  .checkbox-agree {
+    align-items: center;
+    gap: 1.69rem;
+  }
+  .frame-child {
+    height: 3.13rem;
+    width: 20.75rem;
+    position: relative;
+    border-radius: 10px;
+    background-color: #ffd6ae;
+    display: none;
+    max-width: 100%;
+  }
+  .register {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 310px;
+    height: 23px;
+    flex-shrink: 0;
+  }
+  .rectangle-parent {
+    cursor: pointer;
+    border: 0;
+    padding: 0.81rem 0.63rem 0.88rem;
+    background-color: #ffd6ae;
+    align-self: stretch;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .rectangle-parent:hover {
+    background-color: #e6bd94;
+  }
+  .already-have-an {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .sign-in {
+    color: rgb(9, 199, 228);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .sign-in:hover {
+    color: #fff;
+  }
+  .sign-in-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .input-form,
+  .frame-group {
+    width: 20.88rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 0.56rem;
+    max-width: 100%;
+  }
+  .input-form {
+    margin: 0;
+    width: 31.88rem;
+    align-items: center;
+    gap: 2.19rem;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .custom-checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .custom-checkbox:checked {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+  }
+
+  .custom-checkbox:checked::after {
+    content: '';
+    width: 10px;
+    height: 5px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: rotate(-45deg);
+  }
+
+  /* Media query for screen size <= 750px */
+  @media screen and (max-width: 750px) {
+    .google-input {
+      flex-wrap: wrap;
+    }
+    .input-form {
+      gap: 1.06rem;
+    }
+  }
+
+  /* Media query for screen size <= 450px */
+  @media screen and (max-width: 450px) {
+    .input-email-parent {
+      flex-wrap: wrap;
+    }
+    .already-have-an, .sign-in {
+      font-size: 1rem;
+    }
+    .sign-in-button {
+      flex-wrap: wrap;
+    }
+  }
