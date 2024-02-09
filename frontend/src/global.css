@@ -5,6 +5,7 @@
 
 body {
   @apply leading-[normal] m-0;
+  background-color: #ffead3;
 }
 *,
 ::before,

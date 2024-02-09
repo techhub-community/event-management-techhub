@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom'
 import { Suspense, lazy } from 'react'
+import "./global.css"
 
 const HomePage = lazy(() => import('./pages/HomePage'))
 const Register = lazy(() => import('./register/AuthenticationPage'))
