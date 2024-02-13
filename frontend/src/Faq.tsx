@@ -11,6 +11,7 @@ function Faq(){
     }
 
   return(
+    <section id="faq">
     <div className='wrapper'>
         <div className="faqheading">
         <h2>FAQ</h2><br></br>
@@ -23,7 +24,7 @@ function Faq(){
             <div className='item'>
               <div className='title' onClick={()=>toggle(i)}>
                 <h2>{item.question}</h2>
-                <span>{select ===i?'-':'+'}</span>
+                <span>{select ===i? <img src="https://cdn.iconscout.com/icon/free/png-256/free-up-arrow-1767496-1502504.png" height={25}></img>:<img src="https://cdn.iconscout.com/icon/free/png-256/free-down-arrow-1767499-1502567.png" height={25}></img>}</span>
               </div>
               <div className={select ===i?'content show':'content'}>{item.answer} </div>
 
@@ -32,6 +33,7 @@ function Faq(){
         }
       </div>
     </div>
+    </section>
   )
 }
 

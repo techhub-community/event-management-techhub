@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0px;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .navbar{
   height: 60px;
   width: 100%;
@@ -25,6 +27,13 @@
 
 .navitem{
   padding: 0px 20px;
+}
+.navitem button{
+  padding: 10px;
+  background: rgba(255, 250, 246, 1);
+  border:1px solid black;
+  font-size: 1.3rem;
+  border-radius: 20px;
 }
 .navspan{
   margin: 20px;
@@ -123,13 +132,23 @@
   background-size: cover;
 }
 .body{
-  height:680px;
+  height:750px;
   padding: 50px;
   background: rgba(255, 234, 211, 1);
 
 }
 .datetime{
   font-size: 1.5rem;
+  height: 100px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 50px 10px rgba(144, 63, 11, 0.29) inset;
+
 }
 .eventpicture{
   height: 200px;
@@ -153,17 +172,26 @@
   
 }
 .subpro{
+  padding: 5px;
   height: 140px;
   min-width: 150px;
   margin: 20px;
   border-radius: 20px;
   background: linear-gradient(140.24deg, #5E1B04 0%, rgba(245, 204, 160, 0.63) 93.36%);
   box-shadow: 4px 4px 0px 1px rgba(255, 210, 184, 0.36);
-  display: inline-block;
-  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
+.atendphoto{
+  height: 60px;
+  min-width: 60px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 50%;
 }
 .photosection{
-  height:200px;
+  height:100%;
   padding: 50px 50px 0px 50px;
   background: rgba(255, 234, 211, 1);
 
@@ -183,6 +211,24 @@
   background-image: url("./images/event3.jpg");
   background-size: cover;
 }
+
+.showall{
+  height: 100%;
+  width: 100vw;
+
+}
+.see{
+  height: 140px;
+  width: 200px;
+  margin: 20px;
+  border-radius: 20px;
+  display: inline-block;
+  background-color: black;
+  border: 2px solid black;
+  background-image: url("./images/event3.jpg");
+  background-size: cover;
+}
+
 .wrapper{
   padding: 10px;
   display: flex;
@@ -202,6 +248,8 @@
   
 }
 .item{
+  height: 100%;
+  width: 100%;
   padding:20px;
   background: rgba(255, 161, 79, 0.8);
   margin-bottom: 5px;
@@ -265,6 +313,17 @@
 }
 .link2{
   margin: 20px;
+  
+}
+.imag{
+  display: flex;
+  margin: 10px;
+}
+
+.link2 a img{
+  height: 30px;
+  width: 30px;
+  margin: 10px;
 }
 .foottail{
   height: 50px;

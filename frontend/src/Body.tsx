@@ -14,12 +14,27 @@ function Boby({date,time}:info) {
       <div className="attendees">
         <h2>Attendees</h2>
         <div className="pro">
-          <div className="subpro"></div>
-          <div className="subpro"></div>
-          <div className="subpro"></div>
-          <div className="subpro"></div>
-          <div className="subpro"></div>
-          <div className="subpro"></div>
+          <div className="subpro">
+            <div className="atendphoto"></div>
+            <h3>name</h3>
+          </div>
+          <div className="subpro">
+            <div className="atendphoto"></div>
+            <h3>name</h3>
+          </div>
+          <div className="subpro">
+            <div className="atendphoto"></div>
+            <h3>name</h3>
+          </div>
+          <div className="subpro">
+            <div className="atendphoto"></div>
+            <h3>name</h3>
+          </div>
+          <div className="subpro">
+            <div className="atendphoto"></div>
+            <h3>name</h3>
+          </div>
+          
         </div>
       </div>
     </div>

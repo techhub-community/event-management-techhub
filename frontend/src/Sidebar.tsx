@@ -22,11 +22,11 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
       </div>
       <ul>
       <div className="navitem">
-            <span className="navspan">Home</span>
+            <span className="navspan"></span>
             <span className="navspan">About</span>
             <span className="navspan">Contact</span>
             <span className="navspan">Events</span>
-            <span className="navspan">FAQ</span>
+            <button >Login</button>
         </div>
       </ul>
     </div>
