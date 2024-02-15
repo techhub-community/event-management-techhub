@@ -1,9 +1,9 @@
-import Header from "./Header";
-import Nav from "./Nav";
-import Body from "./Body"
-import Photo from "./Photo";
-import Faq from "./Faq";
-import Footer from "./Footer";
+import Header from "./pages/Header";
+import Nav from "./pages/Nav";
+import Body from "./pages/Body"
+import Photo from "./pages/Photo";
+import Faq from "./pages/Faq";
+import Footer from "./pages/Footer";
 
 function App() {
  

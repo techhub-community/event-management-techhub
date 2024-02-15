@@ -1,3 +1,4 @@
+import '../css/footer.css'
 import { Link } from "react-router-dom";
 interface footprobs{
     eventname:string;
@@ -12,7 +13,7 @@ function Footer({eventname,venuetime}:footprobs) {
             <h3>{eventname}</h3>
             </div>
             
-            <span >share</span>
+            <button><span >share</span></button>
            
         </div>
             

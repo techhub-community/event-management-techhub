@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Sidebar from "./Sidebar";
+import '../css/nav.css'
 function Nav() {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
 
@@ -17,9 +18,8 @@ function Nav() {
         <div className="navlogo"></div>
        
         <div className="app-container">
-      <button className="menubutton"onClick={handleMenuClick}>
+      <button className="menubutton"onClick={handleMenuClick}>      </button>
       
-      </button>
       <Sidebar isOpen={isSidebarOpen} onClose={handleCloseSidebar} />
       <div className="main-content">
        

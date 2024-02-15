@@ -5,7 +5,7 @@
 html{
   scroll-behavior: smooth;
 }
-.navbar{
+/* .navbar{
   height: 60px;
   width: 100%;
   padding: 0px 20px 0px 20px;
@@ -19,7 +19,7 @@ html{
 .navlogo{
   height: 50px;
   width: 120px;
-  /* padding-right: 20px; */
+  /* padding-right: 20px; 
   background-color: black;
   background-image: url("./images/codeshack.jpg");
   background-size: cover;
@@ -42,11 +42,11 @@ html{
   color: black;
   display: block;
   
-}
+} */
 
 /* Sidebar.css */
 
-.sidebar {
+/* .sidebar {
   height: 100%;
   width: 0;
   position: fixed;
@@ -54,7 +54,7 @@ html{
   right: 0;
   background: rgba(255, 250, 246, 1);
   overflow-x: hidden;
-  /* padding: 20px 0px 0px 20px; */
+  /* padding: 20px 0px 0px 20px; 
   transition: 0.5s;
 }
 .sidenav{
@@ -76,7 +76,7 @@ html{
   border: none;
   color: white;
   cursor: pointer;
-} */
+} 
 
 .sidebar ul {
   list-style-type: none;
@@ -92,8 +92,8 @@ html{
 
 .sidebar li:hover {
   background-color:#333;
-}
-.menubutton{
+} */
+/* .menubutton{
   height: 40px;
   width: 40px;
   margin-right: 40px;
@@ -109,15 +109,13 @@ html{
   background-image: url("./images/menu.jpg");
   background-size: cover;
   border: none;
-}
+} */
 
-.headbar{
+/* .headbar{
   height: 100px;
   padding:80px 0px 0px 20px;
   background: linear-gradient(180deg, rgba(255, 184, 123, 0.59) 0%, rgba(255, 234, 211, 1) 100%);
   border-bottom: 2px solid black;
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
-
 }
 .data{
   display: flex;
@@ -130,8 +128,8 @@ html{
   border-radius: 50px;
   background-image: url("./images/ncodeshacklogo.jpg");
   background-size: cover;
-}
-.body{
+} */
+/* .body{
   height:750px;
   padding: 50px;
   background: rgba(255, 234, 211, 1);
@@ -159,8 +157,8 @@ html{
   background-color: black;
   background-image: url("./images/inbody.jpg");
   background-size: cover;
-}
-.pro{
+} */
+/* .pro{
   height: 200px;
   width: 100%;
   display: flex;
@@ -189,8 +187,8 @@ html{
   margin: 10px;
   border: 2px solid black;
   border-radius: 50%;
-}
-.photosection{
+} */
+/* .photosection{
   height:100%;
   padding: 50px 50px 0px 50px;
   background: rgba(255, 234, 211, 1);
@@ -210,9 +208,9 @@ html{
   border: 2px solid black;
   background-image: url("./images/event3.jpg");
   background-size: cover;
-}
+} */
 
-.showall{
+/* .showall{
   height: 100%;
   width: 100vw;
 
@@ -227,9 +225,9 @@ html{
   border: 2px solid black;
   background-image: url("./images/event3.jpg");
   background-size: cover;
-}
+} */
 
-.wrapper{
+/* .wrapper{
   padding: 10px;
   display: flex;
   display: block;
@@ -272,8 +270,8 @@ html{
   border-top: 2px solid black;
   max-height: 999px;
   transition: all 0.5s cubic-bezier(0,1,0,1);
-}
-.foothead{
+} */
+/* .foothead{
   height: 70px;
   background: rgba(0, 0, 0, 1);
   color: rgba(255, 255, 255, 1);
@@ -336,4 +334,4 @@ html{
 }
 .foottail a{
   color:lightskyblue;
-}
+} */

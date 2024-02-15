@@ -1,3 +1,4 @@
+import '../css/photo.css'
 import { Link, Routes,Route } from "react-router-dom"
 import Seeall from "./Seeall"
 function Photo() {

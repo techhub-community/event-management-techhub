@@ -1,3 +1,5 @@
+import '../css/header.css'
+
 interface statementprop{
   state1:string;
   state2:string;

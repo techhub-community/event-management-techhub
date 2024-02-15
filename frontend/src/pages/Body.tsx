@@ -1,3 +1,6 @@
+import '../css/body.css'
+import '../css/attendee.css'
+
 interface info{
   date:any;
   time:any;

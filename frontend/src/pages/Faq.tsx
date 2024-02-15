@@ -1,3 +1,4 @@
+import '../css/faq.css'
 import { useState } from "react"
 function Faq(){
 

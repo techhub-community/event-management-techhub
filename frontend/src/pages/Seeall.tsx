@@ -1,4 +1,4 @@
-
+import '../css/seeall.css'
 
 function Seeall() {
   return (

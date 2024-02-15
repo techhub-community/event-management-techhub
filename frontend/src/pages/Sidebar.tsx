@@ -1,6 +1,7 @@
 // Sidebar.tsx
-
+import '../css/sidebar.css'
 import React from 'react';
+import Button from '../smallcomponents/Loginbutton';
  // Import sidebar styles if you have a separate CSS file
 
 interface SidebarProps {
@@ -26,7 +27,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
             <span className="navspan">About</span>
             <span className="navspan">Contact</span>
             <span className="navspan">Events</span>
-            <button >Login</button>
+            <Button />
         </div>
       </ul>
     </div>

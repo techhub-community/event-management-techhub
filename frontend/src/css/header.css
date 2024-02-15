@@ -1,0 +1,18 @@
+.headbar{
+    height: 100px;
+    padding:80px 0px 0px 20px;
+    background: linear-gradient(180deg, rgba(255, 184, 123, 0.59) 0%, rgba(255, 234, 211, 1) 100%);
+    border-bottom: 2px solid black;
+  }
+  .data{
+    display: flex;
+  }
+  .headlogo{
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+    background-color: black;
+    border-radius: 50px;
+    background-image: url("./images/ncodeshacklogo.jpg");
+    background-size: cover;
+  }

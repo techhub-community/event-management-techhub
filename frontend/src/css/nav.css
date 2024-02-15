@@ -1,0 +1,55 @@
+.navbar{
+    height: 60px;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+    background: rgba(255, 250, 246, 1);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    
+  }
+  .navlogo{
+    height: 50px;
+    width: 120px;
+    /* padding-right: 20px; */
+    background-color: black;
+    background-image: url("../images/codeshack.jpg");
+    background-size: cover;
+  }
+  
+  .navitem{
+    padding: 0px 20px;
+  }
+  .navitem button{
+    padding: 10px;
+    background: rgba(255, 250, 246, 1);
+    border:1px solid black;
+    font-size: 1.3rem;
+    border-radius: 20px;
+  }
+  .navspan{
+    margin: 20px;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    color: black;
+    display: block;
+    
+  }
+  .menubutton{
+    height: 40px;
+    width: 40px;
+    margin-right: 40px;
+    background-image: url("../images/menu.jpg");
+    background-size: cover;
+    border: none;
+  }
+  
+  .navmenubutton{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    background-image: url("../images/menu.jpg");
+    background-size: cover;
+    border: none;
+  }
