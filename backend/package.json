@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "appwrite": "^13.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "An event management system[backend] built by students of Sir MVIT's Coding club!",
+  "main": "index.js",
+  "devDependencies": {},
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

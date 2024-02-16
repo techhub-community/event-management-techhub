@@ -1,0 +1,21 @@
+.rectangle-glug {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.techhub-icon {
+  -webkit-filter: drop-shadow(1px 1px 0 #B7692C)
+  drop-shadow(-1px -1px 0 #B7692C);
+  filter: drop-shadow(1px 1px 0 #B7692C) 
+  drop-shadow(-1px -1px 0 #B7692C);
+}
+
+.glug-icon,
+.techhub-icon,
+.codeshack-icon {
+  height: 5.63rem;
+  width: 5.63rem;
+  object-fit: cover;
+}
