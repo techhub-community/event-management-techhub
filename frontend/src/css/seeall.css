@@ -1,0 +1,17 @@
+.showall{
+    height: 100%;
+    width: 100vw;
+  
+  }
+  .see{
+    height: 140px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: black;
+    border: 2px solid black;
+    background-image: url("../images/event3.jpg");
+    background-size: cover;
+  }
+  

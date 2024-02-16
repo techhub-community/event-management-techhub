@@ -1,0 +1,30 @@
+.pro{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+  }
+  .subpro{
+    padding: 5px;
+    height: 140px;
+    min-width: 150px;
+    margin: 20px;
+    border-radius: 20px;
+    background: linear-gradient(140.24deg, #5E1B04 0%, rgba(245, 204, 160, 0.63) 93.36%);
+    box-shadow: 4px 4px 0px 1px rgba(255, 210, 184, 0.36);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+  }
+  .atendphoto{
+    height: 60px;
+    min-width: 60px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
